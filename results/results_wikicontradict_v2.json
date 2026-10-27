@@ -1,0 +1,182 @@
+{
+  "run": "second, documented",
+  "n_pairs": 129,
+  "contradictType": {
+    "Implicit (reasoning required)": 50,
+    "Explicit": 79
+  },
+  "rules": {
+    "recall": 0.03875968992248062,
+    "recall_ci": [
+      0.007751937984496124,
+      0.07751937984496124
+    ],
+    "FPR": 0.0,
+    "P": 1.0,
+    "F1": 0.07462686567164178,
+    "recall_by_type": {
+      "Explicit": 0.05063291139240506,
+      "Implicit (reasoning required)": 0.02
+    }
+  },
+  "nli": {
+    "recall": 0.5426356589147286,
+    "recall_ci": [
+      0.46511627906976744,
+      0.6356589147286822
+    ],
+    "FPR": 0.6124031007751938,
+    "P": 0.4697986577181208,
+    "F1": 0.5035971223021581,
+    "recall_by_type": {
+      "Explicit": 0.6075949367088608,
+      "Implicit (reasoning required)": 0.44
+    }
+  },
+  "hybrid": {
+    "recall": 0.5038759689922481,
+    "recall_ci": [
+      0.4263565891472868,
+      0.5891472868217055
+    ],
+    "FPR": 0.5193798449612403,
+    "P": 0.49242424242424243,
+    "F1": 0.49808429118773945,
+    "recall_by_type": {
+      "Explicit": 0.5822784810126582,
+      "Implicit (reasoning required)": 0.38
+    }
+  },
+  "nli_match": {
+    "recall": 0.46511627906976744,
+    "recall_ci": [
+      0.3875968992248062,
+      0.5503875968992248
+    ],
+    "FPR": 0.007751937984496124,
+    "P": 0.9836065573770492,
+    "F1": 0.631578947368421,
+    "recall_by_type": {
+      "Explicit": 0.5189873417721519,
+      "Implicit (reasoning required)": 0.38
+    }
+  },
+  "hybrid_match": {
+    "recall": 0.35658914728682173,
+    "recall_ci": [
+      0.27906976744186046,
+      0.4418604651162791
+    ],
+    "FPR": 0.0,
+    "P": 1.0,
+    "F1": 0.5257142857142858,
+    "recall_by_type": {
+      "Explicit": 0.4177215189873418,
+      "Implicit (reasoning required)": 0.26
+    }
+  },
+  "nli_sem": {
+    "recall": 0.6124031007751938,
+    "recall_ci": [
+      0.5348837209302325,
+      0.6976744186046512
+    ],
+    "FPR": 0.007751937984496124,
+    "P": 0.9875,
+    "F1": 0.7559808612440192,
+    "recall_by_type": {
+      "Explicit": 0.6962025316455697,
+      "Implicit (reasoning required)": 0.48
+    }
+  },
+  "nli_sem_conf": {
+    "recall": 0.8294573643410853,
+    "recall_ci": [
+      0.7596899224806202,
+      0.8837209302325582
+    ],
+    "FPR": 0.007751937984496124,
+    "P": 0.9907407407407407,
+    "F1": 0.9029535864978904,
+    "recall_by_type": {
+      "Explicit": 0.8734177215189873,
+      "Implicit (reasoning required)": 0.76
+    }
+  },
+  "llm_zero": {
+    "recall": 0.4573643410852713,
+    "recall_ci": [
+      0.3798449612403101,
+      0.5426356589147286
+    ],
+    "FPR": 0.007751937984496124,
+    "P": 0.9833333333333333,
+    "F1": 0.6243386243386243,
+    "recall_by_type": {
+      "Explicit": 0.5443037974683544,
+      "Implicit (reasoning required)": 0.32
+    }
+  },
+  "llm_cot": {
+    "recall": 0.6124031007751938,
+    "recall_ci": [
+      0.5271317829457365,
+      0.6976744186046512
+    ],
+    "FPR": 0.0,
+    "P": 1.0,
+    "F1": 0.7596153846153846,
+    "recall_by_type": {
+      "Explicit": 0.7341772151898734,
+      "Implicit (reasoning required)": 0.42
+    }
+  },
+  "cascade": {
+    "recall": 0.37209302325581395,
+    "recall_ci": [
+      0.29457364341085274,
+      0.4573643410852713
+    ],
+    "FPR": 0.007751937984496124,
+    "P": 0.9795918367346939,
+    "F1": 0.5393258426966292,
+    "recall_by_type": {
+      "Explicit": 0.4430379746835443,
+      "Implicit (reasoning required)": 0.26
+    }
+  },
+  "decomp_nli_match": {
+    "n": 129,
+    "matched": 110,
+    "detected": 60,
+    "cut_by_gate": 19,
+    "missed_by_model": 50,
+    "p_matched": 0.8527131782945736,
+    "p_detected_given_matched": 0.5454545454545454
+  },
+  "decomp_nli_sem": {
+    "n": 129,
+    "matched": 125,
+    "detected": 79,
+    "cut_by_gate": 4,
+    "missed_by_model": 46,
+    "p_matched": 0.9689922480620154,
+    "p_detected_given_matched": 0.632
+  },
+  "llm": {
+    "zero": {
+      "model": "qwen2.5:7b",
+      "mode": "zero",
+      "new_calls": 258,
+      "invalid": 0,
+      "sec_per_call": 2.46
+    },
+    "cot": {
+      "model": "qwen2.5:7b",
+      "mode": "cot",
+      "new_calls": 258,
+      "invalid": 0,
+      "sec_per_call": 3.313
+    }
+  }
+}

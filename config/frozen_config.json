@@ -1,0 +1,10 @@
+{
+  "nli_model": "cross-encoder/nli-deberta-v3-base",
+  "nli_threshold": 0.9,
+  "hybrid_threshold": 0.99,
+  "nli_match_threshold": 0.05,
+  "nli_match_gate": 0.1,
+  "hybrid_match_threshold": 0.99,
+  "hybrid_match_gate": 0.1,
+  "note": "Frozen on synthetic dev. Do not change before the single WikiContradict run."
+}

@@ -1,0 +1,88 @@
+{
+  "n_pairs": 129,
+  "rows_in_file": 506,
+  "contradictType": {
+    "Implicit (reasoning required)": 50,
+    "Explicit": 79
+  },
+  "rules": {
+    "recall": 0.03875968992248062,
+    "recall_ci": [
+      0.007751937984496124,
+      0.07751937984496124
+    ],
+    "false_positive_rate": 0.0,
+    "fpr_ci": [
+      0.0,
+      0.0
+    ],
+    "recall_by_type": {
+      "Explicit": 0.05063291139240506,
+      "Implicit (reasoning required)": 0.02
+    }
+  },
+  "nli": {
+    "recall": 0.5426356589147286,
+    "recall_ci": [
+      0.46511627906976744,
+      0.6356589147286822
+    ],
+    "false_positive_rate": 0.6124031007751938,
+    "fpr_ci": [
+      0.5346899224806201,
+      0.6976744186046512
+    ],
+    "recall_by_type": {
+      "Explicit": 0.6075949367088608,
+      "Implicit (reasoning required)": 0.44
+    }
+  },
+  "hybrid": {
+    "recall": 0.5038759689922481,
+    "recall_ci": [
+      0.4263565891472868,
+      0.5891472868217055
+    ],
+    "false_positive_rate": 0.5193798449612403,
+    "fpr_ci": [
+      0.43410852713178294,
+      0.6046511627906976
+    ],
+    "recall_by_type": {
+      "Explicit": 0.5822784810126582,
+      "Implicit (reasoning required)": 0.38
+    }
+  },
+  "nli_match": {
+    "recall": 0.46511627906976744,
+    "recall_ci": [
+      0.3875968992248062,
+      0.5503875968992248
+    ],
+    "false_positive_rate": 0.007751937984496124,
+    "fpr_ci": [
+      0.0,
+      0.031007751937984496
+    ],
+    "recall_by_type": {
+      "Explicit": 0.5189873417721519,
+      "Implicit (reasoning required)": 0.38
+    }
+  },
+  "hybrid_match": {
+    "recall": 0.35658914728682173,
+    "recall_ci": [
+      0.27906976744186046,
+      0.4418604651162791
+    ],
+    "false_positive_rate": 0.0,
+    "fpr_ci": [
+      0.0,
+      0.0
+    ],
+    "recall_by_type": {
+      "Explicit": 0.4177215189873418,
+      "Implicit (reasoning required)": 0.26
+    }
+  }
+}

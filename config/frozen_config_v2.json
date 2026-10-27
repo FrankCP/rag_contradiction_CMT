@@ -1,0 +1,14 @@
+{
+  "nli_model": "cross-encoder/nli-deberta-v3-base",
+  "embed_model": "bge-m3",
+  "llm_model": "qwen2.5:7b",
+  "sem_threshold": 0.05,
+  "sem_word_gate": 0.1,
+  "sem_cos_gate": 0.5,
+  "alpha": 0.05,
+  "conf_threshold": 0.0016822750912979245,
+  "conf_n_negatives": 500,
+  "dev_sha1": "6fbfdb55f1990649bd25d91f2b982b534098d535",
+  "frozen_at": "2026-10-25T16:03:15",
+  "note": "Frozen on synthetic dev before the VitaminC single run and the documented WikiContradict re-run. Do not edit."
+}

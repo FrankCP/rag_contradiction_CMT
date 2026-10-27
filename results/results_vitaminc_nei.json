@@ -1,0 +1,208 @@
+{
+  "data": "vitaminc_nei.jsonl",
+  "n": 500,
+  "nli_sec_per_pair": 0.013,
+  "llm": {
+    "zero": {
+      "model": "qwen2.5:7b",
+      "mode": "zero",
+      "new_calls": 500,
+      "invalid": 0,
+      "sec_per_call": 2.506,
+      "wall_sec": 1253.1
+    },
+    "cot": {
+      "model": "qwen2.5:7b",
+      "mode": "cot",
+      "new_calls": 500,
+      "invalid": 1,
+      "sec_per_call": 3.367,
+      "wall_sec": 1683.9
+    },
+    "cascade_llm_calls": 156
+  },
+  "all": {
+    "baseline_random": {
+      "P": 0.0,
+      "R": 0.0,
+      "F1": 0.0,
+      "F1_ci": [
+        0.0,
+        0.0
+      ],
+      "FPR": 0.48,
+      "FPR_by_type": {
+        "nei": 0.48
+      },
+      "recall_by_type": {}
+    },
+    "baseline_majority": {
+      "P": 0.0,
+      "R": 0.0,
+      "F1": 0.0,
+      "F1_ci": [
+        0.0,
+        0.0
+      ],
+      "FPR": 0.0,
+      "FPR_by_type": {
+        "nei": 0.0
+      },
+      "recall_by_type": {}
+    },
+    "baseline_string": {
+      "P": 0.0,
+      "R": 0.0,
+      "F1": 0.0,
+      "F1_ci": [
+        0.0,
+        0.0
+      ],
+      "FPR": 0.02,
+      "FPR_by_type": {
+        "nei": 0.02
+      },
+      "recall_by_type": {}
+    },
+    "rules": {
+      "P": 0.0,
+      "R": 0.0,
+      "F1": 0.0,
+      "F1_ci": [
+        0.0,
+        0.0
+      ],
+      "FPR": 0.028,
+      "FPR_by_type": {
+        "nei": 0.028
+      },
+      "recall_by_type": {}
+    },
+    "nli": {
+      "P": 0.0,
+      "R": 0.0,
+      "F1": 0.0,
+      "F1_ci": [
+        0.0,
+        0.0
+      ],
+      "FPR": 0.28,
+      "FPR_by_type": {
+        "nei": 0.28
+      },
+      "recall_by_type": {}
+    },
+    "hybrid": {
+      "P": 0.0,
+      "R": 0.0,
+      "F1": 0.0,
+      "F1_ci": [
+        0.0,
+        0.0
+      ],
+      "FPR": 0.244,
+      "FPR_by_type": {
+        "nei": 0.244
+      },
+      "recall_by_type": {}
+    },
+    "nli_match": {
+      "P": 0.0,
+      "R": 0.0,
+      "F1": 0.0,
+      "F1_ci": [
+        0.0,
+        0.0
+      ],
+      "FPR": 0.206,
+      "FPR_by_type": {
+        "nei": 0.206
+      },
+      "recall_by_type": {}
+    },
+    "hybrid_match": {
+      "P": 0.0,
+      "R": 0.0,
+      "F1": 0.0,
+      "F1_ci": [
+        0.0,
+        0.0
+      ],
+      "FPR": 0.124,
+      "FPR_by_type": {
+        "nei": 0.124
+      },
+      "recall_by_type": {}
+    },
+    "nli_sem": {
+      "P": 0.0,
+      "R": 0.0,
+      "F1": 0.0,
+      "F1_ci": [
+        0.0,
+        0.0
+      ],
+      "FPR": 0.312,
+      "FPR_by_type": {
+        "nei": 0.312
+      },
+      "recall_by_type": {}
+    },
+    "nli_sem_conf": {
+      "P": 0.0,
+      "R": 0.0,
+      "F1": 0.0,
+      "F1_ci": [
+        0.0,
+        0.0
+      ],
+      "FPR": 0.512,
+      "FPR_by_type": {
+        "nei": 0.512
+      },
+      "recall_by_type": {}
+    },
+    "llm_zero": {
+      "P": 0.0,
+      "R": 0.0,
+      "F1": 0.0,
+      "F1_ci": [
+        0.0,
+        0.0
+      ],
+      "FPR": 0.304,
+      "FPR_by_type": {
+        "nei": 0.304
+      },
+      "recall_by_type": {}
+    },
+    "llm_cot": {
+      "P": 0.0,
+      "R": 0.0,
+      "F1": 0.0,
+      "F1_ci": [
+        0.0,
+        0.0
+      ],
+      "FPR": 0.342,
+      "FPR_by_type": {
+        "nei": 0.342
+      },
+      "recall_by_type": {}
+    },
+    "cascade": {
+      "P": 0.0,
+      "R": 0.0,
+      "F1": 0.0,
+      "F1_ci": [
+        0.0,
+        0.0
+      ],
+      "FPR": 0.128,
+      "FPR_by_type": {
+        "nei": 0.128
+      },
+      "recall_by_type": {}
+    }
+  }
+}
